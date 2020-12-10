@@ -1,0 +1,200 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;   
+}
+.text-center{
+    font-weight: bold;
+    font-size: 36px;
+    
+}
+
+/* Start navbar section */
+
+.first-part{
+    background: #F0FFF0;
+    width: auto;
+    height: auto;
+}
+.nav-item{
+    margin: 0 15px 0;
+}
+
+.btn{
+    margin: 0 0 0 10px;
+    width: 104px;
+    height: 43px;
+    color: white;
+    background: #21B573;
+    border-radius: 33px;
+}    
+header p{
+    color: orange;
+}
+header h1{
+    font-weight: bold;
+    
+}
+.highlight{
+    color: #21B573;
+    font-weight: bold;
+    
+}
+.started{
+    margin-top: 10px;
+    width: 140px;
+    height: 43px;
+    color: white;
+    background: #21B573;
+    border-radius: 33px;
+}
+
+/* End navbar section */
+/* Start 2nd part */
+.second-part img{
+    width: 66px;
+    height: 85px;
+    margin: 54px 108px auto 96px;
+}
+.card-title{
+    font-weight: bold;
+    margin-bottom: 3px!important;
+}
+
+.second-part .card-body{
+    text-align: center;
+    
+}
+.second-part .card{
+    width: 100%;
+    height: auto;
+    background: #F8FFFB;
+    border-radius: 10px;
+    
+}
+
+.second-part .card:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    transform: translateY(-10px);
+}
+/* End 2nd part */
+
+/* Online Courses Start */
+.third-part img{
+    width: 99%;
+    height: 250px;
+    border-radius: 11px;
+}
+
+.third-part .card{
+    width: 370px;
+    height: auto;
+    padding: 10px 11px 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+.card .footer img{
+    width: 20px;
+    height: 20px;
+   } 
+
+   /* Online Courses end */
+
+   /* testimonial part start */
+
+.testimonial-part img{
+    width: 120px;
+    height: 120px;
+   }
+/* testimonial part end */
+
+
+/* Contact us Start */
+
+.contact-us{
+    background: #F8FFFB;
+}
+
+/* Contact us end */
+
+/* footer start */
+
+footer{
+    width: 100%;
+    height: auto;
+    background: #282531;
+    color: #FFFFFF;
+    padding: 30px 0 1px 0;
+    margin: 30px 0 0 0;  
+      
+}
+
+.copyright{
+    text-align: center;
+    padding: 20px 0 0 0;
+    
+}
+
+
+/* footer end */
+
+
+@media(max-width: 764px){
+    .nav-item{
+        text-align: center!important;
+    }
+    .first-part .backdrop img{
+        width: 100%;
+    }
+
+    .second-part .card{
+        align-items: center;
+        margin: 10px 0;
+    }
+    .second-part .card:hover{
+        transform: translateY(0px);
+        margin: 30px 0;
+    }
+
+    .third-part .card{
+        margin: 10px 0;      
+    }
+    .about-us{
+        text-align: center;
+    }
+    
+}
+
+
+@media(max-width: 991px){
+    .nav-item{
+        text-align: center!important;
+    }
+
+    .first-part .backdrop img{
+        width: 100%;
+    }
+    .second-part .card{
+        align-items: center;
+        margin: 10px 0;
+    }
+    .second-part .card:hover{
+        transform: translateY(0px);
+        margin: 30px 0;
+    }
+
+    .third-part .card{
+        margin: 10px 0;              
+    }
+
+    
+    .about-us{
+        text-align: center;
+    }
+
+}
+
+
+
